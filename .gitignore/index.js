@@ -8,6 +8,17 @@ bot.on('ready', function() {
 	console.log("Connected");
 });
 
+
+
+bot.on('guildMemberAdd', member => {
+  create.var = money.DisplayName
+    return channel.send('Voici ton argent : ' + money.displayName + member.displayName)
+  }).catch(console.error)
+
+
+
+
+
 bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
