@@ -14,3 +14,5 @@ bot.on('message', message => {
 	if (message.content === prefix + "help"){
 		message.channel.sendMessage("```\n Liste des commandes : \n *help - Affiche les commandes ");
 	}
+
+}
