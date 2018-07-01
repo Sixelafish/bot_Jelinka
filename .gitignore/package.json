@@ -1,0 +1,14 @@
+{
+  "name": "bot_Jelinka",
+  "version": "0.0.1",
+  "description": "Bot officiel de Jelinka",
+  "main": "bot.js",
+  "author": "Sixel",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
