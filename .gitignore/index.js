@@ -4,22 +4,16 @@ const bot = new Discord.Client();
 var prefix =  ("*")
 
 bot.on('ready', function() {
-	bot.user.setGame("Version 0.2.0");
+	bot.user.setGame("Version 0.2.1");
 	console.log("Connected");
 });
 
-
+bot.login(process.env.TOKEN);
 
 bot.on('guildMemberAdd', member => {
   create var money.DisplayName = 0
     return channel.send('Voici ton argent : ' + money.displayName + member.displayName)
   }).catch(console.error)
-
-
-
-
-
-bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
 	if (message.content === prefix + "help"){
