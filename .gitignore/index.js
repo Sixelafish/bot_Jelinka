@@ -11,7 +11,7 @@ bot.on('ready', function() {
 
 
 bot.on('guildMemberAdd', member => {
-  create.var = money.DisplayName
+  create var money.DisplayName = 0
     return channel.send('Voici ton argent : ' + money.displayName + member.displayName)
   }).catch(console.error)
 
