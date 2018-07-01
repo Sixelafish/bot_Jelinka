@@ -16,3 +16,4 @@ bot.on('message', message => {
 	}
 
 }
+);
