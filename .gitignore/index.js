@@ -16,7 +16,7 @@ bot.on('message', message => {
 	}
 
 	if (message.content === prefix + "Bourse Créer"){
-		message.channel.sendMessage("Votre bourse à été créer "  + mention.id +" \n \n \n *C'est un test, en vrai vous avez pas de bourse*")
+		message.channel.sendMessage("Votre bourse à été créer "  + "<@!" + userID + ">" + " \n \n \n *C'est un test, en vrai vous avez pas de bourse*")
 
 	}
 
