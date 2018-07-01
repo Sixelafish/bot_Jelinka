@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var prefix =  ("*")
 
 bot.on('ready', function() {
-	bot.user.setGame("Version 0.2.1");
+	bot.user.setGame("Version 0.2.2");
 	console.log("Connected");
 });
 
@@ -16,7 +16,7 @@ bot.on('message', message => {
 	}
 
 	if (message.content === prefix + "Bourse Créer"){
-		message.channel.sendMessage("Votre bourse à été créer "  + " \n \n \n *C'est un test, en vrai vous avez pas de bourse*")
+		message.channel.sendMessage("Votre bourse à été créer "  + <@USER_ID> +" \n \n \n *C'est un test, en vrai vous avez pas de bourse*")
 
 	}
 
