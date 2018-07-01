@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var prefix =  ("*")
 
 bot.on('ready', function() {
-	bot.user.setGame("Commande aide : *help");
+	bot.user.setGame("Version 0.0.1");
 	console.log("Connected");
 });
 
