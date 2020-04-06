@@ -2,7 +2,7 @@
   "name": "bot_Jelinka",
   "version": "0.1.2",
   "description": "Bot rp",
-  "main": "bot.js",
+  "main": "index.js",
   "author": "Sixel",
   "dependencies": {
     "discord.js": "11.3.2"
