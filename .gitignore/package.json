@@ -1,11 +1,11 @@
 {
   "name": "bot_Jelinka",
   "version": "0.1.2",
-  "description": "Bot officiel de Jelinka",
+  "description": "Bot rp",
   "main": "bot.js",
   "author": "Sixel",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "discord.js": "11.3.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
