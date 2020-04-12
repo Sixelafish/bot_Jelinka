@@ -1,19 +1,14 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-var Discord = require('discord.io');
-var logger = require('winston');
-var auth = require('./auth.json');
-// Configure logger settings
-logger.remove(logger.transports.Console);
-logger.add(new logger.transports.Console, {
-    colorize: true
+client.on('ready', () => {
+    console.log('I am ready!');
 });
 
-bot.on('ready', function (evt) {
-    logger.info('Connected');
-    logger.info('Logged in as: ');
-    logger.info(bot.username + ' - (' + bot.id + ')');
+client.on('message', message => {
+    if (message.content === 'ping') {
+       message.reply('pong');
+       }
 });
 
-bot.login(process.env.TOKEN);
-
-;
+client.login(process.env.TOKEN);

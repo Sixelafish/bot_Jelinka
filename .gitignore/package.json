@@ -1,8 +1,15 @@
 {
-  "name": "bot_roleplay",
-  "version": "0.1.2",
-  "description": "Bot rp",
+  "name": "Example",
+  "description": "Example",
+  "version": "0.0.0",
   "main": "bot.js",
-  "author": "Sixel",
-  "dependencies": {}
+  
+  "scripts": {
+    "start": "node bot.js"
+  },
+  
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
 }
