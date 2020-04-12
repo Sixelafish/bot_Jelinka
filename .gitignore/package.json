@@ -1,14 +1,8 @@
 {
-  "name": "bot_Jelinka",
+  "name": "bot_roleplay",
   "version": "0.1.2",
   "description": "Bot rp",
   "main": "index",
   "author": "Sixel",
-  "dependencies": {
-    "discord.js": "11.3.2"
-  },
-  "scripts": {
-    "start": "node index"
-  },
-  "license": "ISC"
+  "dependencies": {},
 }
