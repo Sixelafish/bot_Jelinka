@@ -2,7 +2,7 @@
   "name": "bot_roleplay",
   "version": "0.1.2",
   "description": "Bot rp",
-  "main": "index",
+  "main": "bot.js",
   "author": "Sixel",
   "dependencies": {},
 }
